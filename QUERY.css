@@ -1,0 +1,114 @@
+/* Desktop first approach starts here */
+
+@media screen and (min-width: 1200px){
+    body{
+        background-color: aqua;
+    }
+    .div_1{
+        background-color: black;
+        color: aliceblue;
+        width: 70%;
+    }
+    .img1{
+        width: 10%;
+    }
+    .img2{
+        width: 200px;
+    }
+    .img3{
+        width: 200px;
+    }
+} /* Desktop */
+@media screen and (min-width: 1025px) and (max-width: 1199px){
+    body{
+        background-color: rgb(13, 95, 163);
+    }
+    .div_1{
+        background-color: rgb(127, 4, 4);
+        width: 70%;
+    }
+    .img1{
+        width: 10%;
+    }
+    .img2{
+        width: 200px;
+    }
+    .img3{
+        width: 200px;
+    }
+} /* small laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        background-color: rgb(27, 27, 189);
+    }
+    .div_1{
+        background-color: rgb(95, 84, 84);
+        width: 70%;
+    }
+    .img1{
+        width: 10%;
+    }
+    .img2{
+        width: 200px;
+    }
+    .img3{
+        width: 200px;
+    }
+} /* tablet */
+@media screen and (min-width: 575px) and (max-width: 767.98px){
+    body{
+        background-color: maroon;
+    }
+    .div_1{
+        background-color: rgb(176, 87, 36);
+        width: 70%;
+    }
+    .img1{
+        width: 10%;
+    }
+    .img2{
+        width: 200px;
+    }
+    .img3{
+        width: 200px;
+    }
+} /* tablet and large mobiles */
+@media screen and (min-width: 481px) and (max-width: 574px){
+    body{
+        background-color: goldenrod;
+    }
+    .div_1{
+        background-color: navy;
+        color: white;
+        width: 70%;
+    }
+    .img1{
+        width: 10%;
+    }
+    .img2{
+        width: 200px;
+    }
+    .img3{
+        width: 200px;
+    }
+} 
+@media screen and (min-width: 320px) and (max-width: 480px){
+    body{
+        background-color: darkgray;
+    }
+    .div_1{
+        background-color: rosybrown;
+        width: 70%;
+    }
+    .img1{
+        width: 10%;
+    }
+    .img2{
+        width: 200px;
+    }
+    .img3{
+        width: 200px;
+    }
+}
+
+/* Mobile*/
